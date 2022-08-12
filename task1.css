@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td{
+    border: 1px solid black;
+}
+th{
+    padding: 5px 15px;
+    background-color: lavender;
+}
+td{
+    padding-bottom: 15px;
+    vertical-align: top;
+}
+td+td, th+th{
+    width: 70px;
+}
+td:last-child{
+    width: 27%;
+}
+button{
+    border: deepskyblue 2px solid;
+    width: 90%;
+    margin:2px 5px;
+    border-radius: 3px;
+}
