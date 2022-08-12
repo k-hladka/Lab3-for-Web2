@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 70px;
+    text-align: center;
+    vertical-align: center;
+    width: 50%;
+    font-weight: bold;
+}
+div:first-child{
+    float: left;
+    background-color: lavender;
+}
+div:last-child{
+    float: left;
+    background-color: plum;
+}
