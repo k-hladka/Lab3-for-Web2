@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+label{
+    padding-right: 20px;
+    font-weight: bold;
+}
+output{
+    padding-left: 10px;
+}
